@@ -1,0 +1,41 @@
+.create_task {
+    margin-top: 2rem;
+
+    h4 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 2rem 0;
+    }
+
+    .card {
+        background-color: #8080800d;
+    }
+
+    .card-section {
+        padding: 1.5rem;
+
+        legend {
+            font-size: 20px;
+        }
+
+        input {
+            border-radius: 5px;
+        }
+
+        button {
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    }
+        input[type=text],
+        select {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+   
+}
